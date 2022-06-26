@@ -31,3 +31,7 @@ print("정답은 "+str(answer)+"입니다.")
 answer = 7
 print(f"정답은 {answer}입니다.")
 
+#split()함수
+#문자열을 공백이나 특정 문자열로 나눈 다음에 리스트로 반환
+#https://aplab.tistory.com/93
+
