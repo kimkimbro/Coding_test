@@ -22,7 +22,13 @@ a=1
 b=2
 print(a,b)
 print('A',end=" ")      #end를 사용하여 줄바꿈X
-print('B')
+print('A','B',sep=".")
+
+chr()   #정수값->문자,
+ord()   #문자->정수값(문자 아스키 코드로 변환)
+bin()   #2진수로 변환
+oct()   #8진수로 변환 print('%o'%a)
+hex()   #16진수로 변환 print('%x'%a)
 
 answer = 7
 print("정답은 "+str(answer)+"입니다.")

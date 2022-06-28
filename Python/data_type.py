@@ -6,9 +6,10 @@ c=5.        #소수부가 0일 때 0생략
 b=.7        #정부부가 0일 때 0생략
 
 a=0.3+0.6   #8.99999
-print(round(a,4))
+print(round(a,4))   #print('%.2f'%3.141592)
 
-# /나누기, #나머지, //몫, **제곱,  **0.5제곱근
+# /나누기, #나머지, //몫, **제곱(a<<b),  **0.5제곱근
+# ~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor), <<(bitwise left shift), >>(bitwise right shift)
 
 ###리스트 자료형###
 #여러 개의 데이터를 연속적으로 담아 처리하기 위해 사용하는 자료형
